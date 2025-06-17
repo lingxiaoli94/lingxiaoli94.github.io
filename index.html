@@ -1,1 +1,63 @@
-Hello World
+---
+layout: default
+title: Lingxiao Li
+---
+<div class="body-wrapper">
+  <div class="sidebar">
+    <div class="sidebar-sticky">
+      <div class="sidebar-about">
+        <div class="photo">
+          <img id="myself-pic" src="assets/img/self2.png">
+        </div>
+        <h1 id="myself-name">
+          Lingxiao Li
+        </h1>
+        <div class="affiliation">
+          <p>
+            Research Scientist @ Netflix
+          </p>
+        </div>
+        <div class="contact">
+          <p>
+          <a href="mailto:lingxiaol@netflix.com"><i class="fas fa-envelope"></i> lingxiaol@netflix.com</a>
+          </p>
+          <p>
+          <a href="https://github.com/lingxiaoli94"><i class="fab fa-github"></i> Github</a>
+          </p>
+          <p>
+          <a href="assets/cv.pdf">Curriculum Vitae</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="intro">
+      <p>
+      I am a research scientist at <a href="https://research.netflix.com/">Netflix</a>, working on content creation for original series, movies, and video games. Previously, I received my PhD at MIT advised by <a href="https://people.csail.mit.edu/jsolomon/">Justin Solomon</a> in <a href="http://groups.csail.mit.edu/gdpgroup/">Geometric Data Processing</a> group. Before coming to MIT, I obtained my Bachelor's Degree in Computer Science and Mathematics and my Master's Degree in Mathematics, both at Stanford University.
+      </p>
+      <p>
+      I am broadly interested in research problems in machine learning, optimization, and computer vision/graphics.
+      I am grateful to have interned at Microsoft Research with <a href="https://web.stanford.edu/~lmackey/index.html"> Lester Mackey</a> and at Adobe Research with with <a href="https://noamaig.github.io/">Noam Aigerman</a>  and <a href="http://www.vovakim.com/">Vova Kim</a>  during my PhD.
+      At Stanford, I was fortunate to have worked with <a href="https://geometry.stanford.edu/member/guibas/">Leonidas Guibas</a> and <a href="https://math.stanford.edu/~bump/">Daniel Bump</a>, among many others.
+      </p>
+    </div>
+    <div class="research">
+      <h2>Publications</h2>
+      {% assign papers_sorted = site.papers | sort: 'date' | reverse %}
+      {% for paper in papers_sorted %}
+        <div class="paper-entry">
+          <div class="paper-description">
+            <p class="paper-title">{{ paper.title }}<p>
+            <p class="paper-content">{{ paper.content | markdownify }}</p>
+          </div>
+          <div class="paper-thumbnail">
+            <img src="assets/img/{{ paper.thumbnail }}">
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

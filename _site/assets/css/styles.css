@@ -1,0 +1,111 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.body-wrapper {
+  max-width: 80rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ac4142;
+}
+
+.sidebar {
+  background-color: #ac4142;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 16rem;
+  text-align: left;
+}
+
+.sidebar a {
+  color: #fff;
+}
+
+.sidebar-sticky {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.content {
+  margin-left: 19rem;
+  margin-top: 3rem;
+}
+
+.photo {
+  text-align: center;
+}
+
+#myself-pic {
+  position: relative;
+  border-radius: 50%;
+  width: 60%;
+}
+
+#myself-name {
+  line-height: 1.25;
+  font-weight: bold;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.affiliation {
+  line-height: 1.25;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.contact {
+  text-align: center;
+}
+
+.intro {
+  margin-bottom: 2rem;
+}
+
+.paper-entry {
+  display: flex;
+}
+
+.paper-description {
+  width: 70%;
+}
+
+.paper-thumbnail {
+  width: 30%;
+  text-align: center;
+}
+
+.paper-title {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.author-list {
+  font-size: 0.9rem;
+}
+
+.conference-location {
+  font-size: 0.9rem;
+}
+
+.paper-links {
+  font-size: 0.9rem;
+}
+
+.paper-thumbnail img {
+  height: 100px;
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+  margin-left: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
