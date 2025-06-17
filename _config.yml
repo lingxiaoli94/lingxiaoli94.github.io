@@ -2,3 +2,4 @@ collections:
     papers:
         output: false
 url: "https://lingxiaoli94.github.io"
+baseurl: "/lingxiaoli94.github.io"
