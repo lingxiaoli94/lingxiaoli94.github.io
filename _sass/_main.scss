@@ -1,6 +1,7 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    line-height: 1.5;
+    font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
+    line-height: 1.3;
+    font-size: 1.1rem;
 }
 
 .body-wrapper {
@@ -20,6 +21,7 @@ a {
     bottom: 0;
     width: 16rem;
     text-align: left;
+    font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
 }
 
 .sidebar a {
@@ -43,7 +45,7 @@ a {
 
 #myself-pic {
     position: relative;
-    border-radius: 50%;
+    border-radius: 40%;
     width: 60%;
 }
 
@@ -57,7 +59,7 @@ a {
 
 .affiliation {
     line-height: 1.25;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
     color: #fff;
 }
@@ -88,19 +90,19 @@ a {
 
 .paper-title {
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 .author-list {
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .conference-location {
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .paper-links {
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .paper-thumbnail img {

@@ -1,10 +1,10 @@
-body { font-family: Helvetica, Arial, sans-serif; line-height: 1.5; }
+body { font-family: 'Source Sans 3', Helvetica, Arial, sans-serif; line-height: 1.3; font-size: 1.1rem; }
 
 .body-wrapper { max-width: 80rem; }
 
 a { text-decoration: none; color: #ac4142; }
 
-.sidebar { background-color: #ac4142; position: fixed; top: 0; left: 0; bottom: 0; width: 16rem; text-align: left; }
+.sidebar { background-color: #ac4142; position: fixed; top: 0; left: 0; bottom: 0; width: 16rem; text-align: left; font-family: 'Source Sans 3', Helvetica, Arial, sans-serif; }
 
 .sidebar a { color: #fff; }
 
@@ -14,11 +14,11 @@ a { text-decoration: none; color: #ac4142; }
 
 .photo { text-align: center; }
 
-#myself-pic { position: relative; border-radius: 50%; width: 60%; }
+#myself-pic { position: relative; border-radius: 40%; width: 60%; }
 
 #myself-name { line-height: 1.25; font-weight: bold; color: #fff; font-size: 2rem; text-align: center; }
 
-.affiliation { line-height: 1.25; font-size: 1rem; text-align: center; color: #fff; }
+.affiliation { line-height: 1.25; font-size: 1.2rem; text-align: center; color: #fff; }
 
 .contact { text-align: center; }
 
@@ -30,12 +30,12 @@ a { text-decoration: none; color: #ac4142; }
 
 .paper-thumbnail { width: 30%; text-align: center; }
 
-.paper-title { font-weight: bold; font-size: 0.9rem; }
+.paper-title { font-weight: bold; font-size: 1.1rem; }
 
-.author-list { font-size: 0.9rem; }
+.author-list { font-size: 1rem; }
 
-.conference-location { font-size: 0.9rem; }
+.conference-location { font-size: 1rem; }
 
-.paper-links { font-size: 0.9rem; }
+.paper-links { font-size: 1rem; }
 
 .paper-thumbnail img { height: 100px; position: relative; top: 45%; transform: translateY(-50%); margin-left: 1rem; }
