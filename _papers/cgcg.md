@@ -6,6 +6,7 @@ date: 2025-07-02
 Lingxiao Li, Salar Rahili, Yiwei Zhao
 {: class="author-list"}
 
+*Oral Presentation* <br>
 Conference on Language Modeling (COLM 2025), Montreal, Canada
 {: class="conference-location"}
 
