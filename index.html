@@ -34,28 +34,8 @@ title: Lingxiao Li
 
   <div class="content">
     <div class="intro">
-      <p>
-      I am a Research Scientist at <a href="https://research.netflix.com/">Netflix</a>, where I work to push the boundaries of entertainment
-       through AI innovation, particularly in video games. 
-      Previously, I received a PhD at MIT advised by <a href="https://people.csail.mit.edu/jsolomon/">Justin Solomon</a>, a B.S. in Computer Science and Mathematics and an M.S. in Mathematics, both at Stanford University.
-      </p>
-
-      <p class="research-detail">
-       My research centers on one question: How can we make interaction with AI not just intelligent, 
-       but genuinely fun?
-       I believe the key is to use AI to empower player creativity, enabling entirely new forms of AI-assisted expression.
-        To this end, I am exploring the following questions:
-      </p>
-      <p>
-      <b>Bottom-Up Structural World Modeling</b>. 
-      Can we use a bottom-up approach to model a world's logical structure as a compact, text-based formal representation? 
-      This format is inherently consistent and it is easy to add interactivity and visual components.
-      </p>
-      <p>
-      <b>Emergent and Balanced Game Mechanics</b>. 
-      Beyond visual assets, can game mechanics themselves, represented as code, be generative, adapting to player input and the world state? 
-      Can we enable a true roguelike experience where any player build is viable without unbalancing the game? 
-      </p>
+      {% capture intro_content %}{% include intro.md %}{% endcapture %}
+      {{ intro_content | markdownify }}
     </div>
     <div class="research">
       <h2>Publications</h2>
