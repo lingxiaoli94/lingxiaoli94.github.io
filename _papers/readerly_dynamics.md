@@ -9,5 +9,5 @@ Danrui Li, Yiwei Zhao, Mubbasir Kapadia, Lingxiao Li
 Preprint
 {: class="conference-location"}
 
-[Paper](https://arxiv.org/pdf/2611.00469)
+[Paper](https://arxiv.org/pdf/2611.00469) `|` [Project Page](https://danruili.github.io/SteeringReaderlyDynamics/)
 {: class="paper-links"}
